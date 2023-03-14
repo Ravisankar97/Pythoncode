@@ -1,0 +1,6 @@
+import os
+import webbrowser
+
+link = 'https://www.guru99.com/how-to-install-python.html'
+
+webbrowser.open(link)
