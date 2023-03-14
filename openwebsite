@@ -1,6 +1,8 @@
 import os
 import webbrowser
 
-link = 'https://www.guru99.com/how-to-install-python.html'
+link =[ 'https://www.guru99.com/how-to-install-python.html', 'https://github.com/Ravisankar97/website/tree/master']
+for i in link:
+    webbrowser.open(i)
 
-webbrowser.open(link)
+
